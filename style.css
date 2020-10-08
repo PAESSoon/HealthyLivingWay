@@ -1,75 +1,85 @@
-body{
-	font-family: 'Noto Serif KR', sans-serif;
-	background-color: #F4F4F4;
-	color: #535456;
+body {
+  font-family: 'Noto Serif KR', sans-serif;
+  background-color: #F4F4F4;
+  color: #535456;
 }
 
-.bg-topnav{
+.bg-topnav {
   background-color: rgba(255, 255, 255, 0);
   height: 60px;
   font-size: 1.2em;
   border: 0;
 }
-.nav.navbar-nav li a{
+
+.nav.navbar-nav li a {
   color: #b6d4f2;
 }
-.nav.navbar-nav li a:hover{
+
+.nav.navbar-nav li a:hover {
   color: white;
 }
 
-#header-img{
-	width: 2.5em;
-	/*padding-top: 0;*/
+#header-img {
+  width: 2.5em;
+  /*padding-top: 0;*/
 }
 
-#header{
-	font-family: 'Open Sans', sans-serif;
+#header {
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1{
+h1 {
   color: white;
   opacity: 0.7;
   font-family: 'Courgette', cursive;
   font-weight: bold;
   /* font-size: 3.5em; */
-  text-shadow: -2px 2px 4px rgba(0,0,0,0.5);
+  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5);
   text-align: center;
   width: 80vw;
 }
+
 @media screen and (max-width: 600px) {
   h1 {
     display: none;
   }
 }
 
-#content{
+#content {
   /*color: rgb(255,255,255);*/
-/*  text-shadow: -2px 2px rgba(0,0,0,0.1);
+  /*  text-shadow: -2px 2px rgba(0,0,0,0.1);
   text-align: center;*/
-/*  text-transform: uppercase;*/
+  /*  text-transform: uppercase;*/
   padding-top: 25%;
   padding-bottom: 50px;
   margin: 0, auto;
 }
-.back-image{
-	background-image: url(https://lh3.googleusercontent.com/9cJh89tikmxAra9x8UuOYHTguFyuBMfQfewPb28L8YuLZPuoxUPkvl07RGI7Nbp__jmBXlgaavSgk4Qxz1LaakMcku4O5fDFPZ6puyGcGYyNQFrMy5OmNBtEmOQrlRrn38EMdpHHO-qnmpdxxsSnr4f31iwszgK6q-Ukv0Zno61-3S3A6_BlOVU1tMYv1PHbmX7cTxWaM8B0TmEHHPrWWLceHjS_43kTTZ7KtHT3L2j9NCs7DZhW6_D2S2alEcipxFwktuJ_UZAogeGu-2RYQAnFRccFLXpglXneq8wuA4k3uk1zybcRYbZ5DcE8LXDtMtvpJMvk1rUQrEfIRQSTT_LP0zPpN1Hff7p1kXUbWDGPNkU3vmzOAm1fvpdmSOuOnnCyFap86Bx19jPJyXcK5BSRSPnuL8tt58UpxWzICQFc0WVDZvxkXVh4N0PLx4uM3DIHAw_yFKX34O9mQr6Hb6Tz4bFWsjz6CeqxOY39F3Eh2Blx5kSRymu_LLmQzR2b7Bck17LKdVzMuHq_r6HkKiwTOCDIVEBqKgWUkGs-rTdk7oVk5gwsyNF43Z-Q3HZmrJVnYreJMRKjA1_EfUEgmPOjc3uCzTHMHTiuJYQ=w2512-h1598-no);
-	background-size: cover;
-	margin-top: 0;
-	margin-bottom: 4em;
-	padding-top: 2em;
+
+.back-image {
+  background-image: url('./Assets/happyBalloons.jpeg');
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 4em;
+  padding-top: 2em;
   padding-bottom: 5em;
   max-width: 100%;
   display: block;
   height: auto;
 }
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.3); }
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.3);
+}
 
 
 
-iframe{
-	display: block;
-	margin: 15em auto 3em auto;
+iframe {
+  display: block;
+  margin: 15em auto 3em auto;
 }
 
 #video {
@@ -77,47 +87,51 @@ iframe{
   height: 315px;
 }
 
-.btn{
-	color: white;
-	background: #367fc8; 
+.btn {
+  color: white;
+  background: #367fc8;
   height: 2.5em;
   border: 0;
 }
 
-.fade{
-	opacity: 1;
+.fade {
+  opacity: 1;
 }
-.fade:hover{
-	opacity:0.75;
+
+.fade:hover {
+  opacity: 0.75;
 }
-.fab{
-	size: 3em;
+
+.fab {
+  size: 3em;
 }
-.socialIcons a{
+
+.socialIcons a {
   color: #6ec6e1;
   display: inline-block;
   font-size: 2em;
   margin-right: 10px;
 }
-.socialIcons a:hover{
+
+.socialIcons a:hover {
   color: #367fc8;
 }
 
 /* ----- Rows of images ------*/
 .image1 {
-  background-image: url(https://lh3.googleusercontent.com/fnSfLLeCDsSfZkYj73NnqKBjCKDYv690B3zaWHVQ9wDE0jBfaimBulhLRtlxFQu90oUnjANbZmQ8SvXEf13CZdgFlbZhyxUxPE-3uf4z-K-6PFQGRai0pLd1YXMr_NTvk0WfZOuCx_g0rnsg0UpaIXk7rjgL6KZFAAZxEgg4NoFXOrxeL_w0z76ECYF9b2Q65afwaeEnPiDvck2SxVrQRqcNjehP7hiQJRHVPsquLFlxT_uqn14R6Aahm5s4x4VCT4z7KyS_nqw1EMWHUQaQm6l4nZSpZHhSXo4c2rXrX-i0F3XOtQ_i5IG-rHsXeFl98t6qfGIqelCDk66EqaV3MhfWRkddTdqA7HWuUpp8OVmc9_tts3O-Eln4k24OPqIuGqxDBeg69Rc4JYSsP-ad6vk9SuQn5o5sX7F2ySS5H7Ngnf_Gelq4tL7f1fi7Kh6BdtYP0lnzuEb_UqBv4hnC_A1-CwD77rrUZiZwqJdVQ6gqZ2dvnl01zFPxaqDfjtYnu9RceC10UdDABN3Af2bEkJAf0EXqH4KBTJd8DEQOE2gqfaJ3oM5jtkYLcqEHaCROjFhCsdnOxsVM0_azUqLHZSJvlHMcNNgPorhP95Jzq12kjCmSy1r_QDveZdxjeTo=w1280-h800-no);
+  background-image: url('./Assets/veganFood.jpeg');
 }
 
 .image2 {
-  background-image: url(https://lh3.googleusercontent.com/s3N2Xpr-JgHP5Mq3EWOE0ABIcCn31tgj-kSnjYQElWtTct7EzzX2bivcBNarTehbxPgflRZBQaA6QBLsqI_E34pzOfYDzrKneeMi-EBafhO1LBMan_6EfHIx6B_QIgaRIUTRl3xZqvI2WejbKnJfIRheYfn4cOLQoSj1MeMgV1G4lm8mpihtfINHi6XCz6OoOt5PS-G0Xx0wCegHTlZscgqmOcQLNu4oZczrofdFCfkIMAujdlUK9nByGiTTsQKyXEvmMyEA3LUc6_U04Fm3tBaBXwVCRGN90nEvnvRmDrRmbMiv2kW5IP4WeTmtbMNGqCxxb6pSwkHL2B4LXr7mXT_sTLM8TwPL8fpNzhYWg_D4E3z4FO0ud_nxnuSoCVrHXacyqIgSV_JtufjRKQG1CK9vkZDZhe7pW_rzXQ6Namg5qucxPcNENYEKAVMWdrsi-CZQ6UOV6meDpuqT4Fg_JVS-hVQUptiW85fHAHVlVZTYuSY5TEsJUHLgLKtmoJF606frpVyhlFSqKg5UeqPYNDs7KAr-SLY4etbAtPfgLFC1P-ZMuZtzqTSJLD8tOG50HQPqVE6_3VHw0tGN5h8Ckp9V3Y-Ub_LqNDCXaAMDHH-LN__-IVHQ5Q3k0xgvBb8=w1280-h800-no);
+  background-image: url('./Assets/yogaPose.jpeg');
 }
 
 .image3 {
-  background-image: url(https://lh3.googleusercontent.com/vzMY2XSXvIqNjpzgT7Of_POtEqVRidD9dxi938EWymGQGD3rzTwA845gtuYUOeRVL1Iai1koH2n8F4PqUVWIINwXYaJG7Bi050vSLvQyHYM9PWoJ9MkhgC6LOf2QdrMqVPdQup0ojQ-f9Q6uOvC6HLzWVCyU8pWYwht_I61qbpUW3Bfkuz3dzFbaDseJaw3OGrUKRSdY4e1MUZTj43JOgMFYr_lFTDO9E3rG0XQiM2RxWm89PF_at8HsIE7SXUKS32g8JYQHbZaJNgO-cCZ0trBKRCz6nS69N0lIGPrnEgNWdSLXvUvZ7u7WcpDwFLOEHIg_p-4hg3w0HErHmsg4qKtV_fJUeHh3We3HQPJbAhhKGh-eQXBfJC_AyIb0slK8BaygKyaUxQks9gaWJ5EY_ctFfJBxVt-oGQEmM0WSN-zi2Kj1zGZzcSaJfi0psilPOMt62uZuS3UGI84hvTwDl5bL3ubD7f1n7UvkmvnQdj-PoGqV5j5ypC00HmgaBNt2xh42rqqd-ff_qVOMGgsvFsKZv1gRaeLLmfKY-6eBfe6Z1hvBoByTPk9ZzTpn133uQnx1G74BrT_7Vn1mb43XxYUAJDaWmsACqcXuAfu2oZiPbUEfkXmXw-yx0kZCVtY=w1280-h800-no);
+  background-image: url('./Assets/zen.jpeg');
 }
 
 .image4 {
-  background-image: url(https://lh3.googleusercontent.com/5jiPIJHm7zH7UMbd0lIoGoVxma5QyBeArHtIoNF0mbGaXuA0CTynlVTnVfsbJp7wwnxAUDxYMaj_L0ySopixXYTzxzlylOlqizx98lb1SZviJDa3hLQb5CxHoO0ycJQO5AnaDFUTb46u1u_TdOogbzCb2b3q8FDTuAaMVtuehPUp6q8IwEtPh3HiSEuZlBuW8ISg88xDNCqg3kPTdQvW4lpHZmcfNzaX3-yFVv7qELaGgJWwqBAPxpkiM-syL4YaIJK3jv5ybE56SebM8cMk5TmrGvn07-L68Ub1XqFTSTVSoKkxklrp50pG42diyifaoyvM7HxM_Xu5z5UagAx1Nw6x7quPjydM5-M4BOfD_JrZCerRVsnI7SoWyyHnTC3Titv0JtbCwgT6Mza32Gi4F-K9xRhDoP8f8Wqr_-rO2ffXd_fPTsMaLoY7KeA8uM8o9FrWtWW9KbyTBRfqGEk7jNqdsxA-4bsRq7s3a41LxsfnipBT_nRIPtGfNsDxFAcck48r2pYwIrsQneFZCadP7v5chrlpQU_VaBkOqU6IfBXSxk3TWFPYom15pwnS-1ZpG89CvvgxA-KJiEu13ttrQN90ZCqPAqmge6sq7vrDUJieeQvouEGgEYFQbHaqr1k=w1280-h800-no);
+  background-image: url('./Assets/happyLittleGirl.jpeg');
 }
 
 .image {
@@ -126,7 +140,8 @@ iframe{
   background-size: cover;
   background-position: center;
 }
-h4{
+
+h4 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   background: white;
@@ -135,7 +150,8 @@ h4{
   padding-bottom: 10px;
   text-align: center;
 }
-.box{
+
+.box {
   height: 65px;
   background: white;
   margin-top: 0px;
@@ -152,7 +168,9 @@ h4{
   width: 100%;
 }
 
-#dale, h5, h6 {
+#dale,
+h5,
+h6 {
   font-family: 'Lato', sans-serif;
   font-size: 1.2em;
   color: #535456;
@@ -162,23 +180,24 @@ h4{
   padding-bottom: 1px;
   text-align: center;
 }
-h5:hover{
-  opacity:0.85;
+
+h5:hover {
+  opacity: 0.85;
   color: #367fc8;
 }
+
 .navbar.scrolled {
-  
+
   background-color: #367fc8;
   transition: background 300ms;
 }
+
 #newColor {
   margin-top: 8px;
 }
-#box-container{
+
+#box-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-
-
-
